@@ -1,0 +1,126 @@
+body{
+  background-color: 000d16;
+  background-image: url("https://wallpapers.com/images/hd/rick-and-morty-unamused-rick-agpuysmhk3lhdl4p.jpg");
+  background-position: top;
+  background-repeat:no-repeat;
+}
+.rw_9_listbox{
+  background-color: #f9f8f8 !important;
+}
+.h1{
+  color: white;
+}
+.selectContent{
+text-align: center;
+margin: auto;
+margin-top: 100px;
+width: 500px;
+
+}
+
+.chip{
+ color: #282c34 !important;
+  background: #c2c2c2 !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.renderItem{
+  border: 2px solid silver !important;
+  border-radius: 20px;
+  display: inline-block;
+  width: 98%;
+    clear: both;
+}
+.renderImg{
+  width: 55px;
+  height: 70px;
+  float: left;
+  display: block;
+}
+.renderImg img{
+  width: 50px;
+  border-radius: 5px;
+   margin-top: 15px;
+   margin-left: 5px;
+}
+.rw-popup .rw-list{
+  min-height: 500px !important;
+  max-height: 500px !important;
+}
+.rw-list-option{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.renderCheck{
+  width: 30px;
+  text-align: right;
+  height: 80px;
+  float: left;
+  margin: auto;
+}
+.renderCheck input
+{
+  margin-top: 30px;
+}
+.renderDesc{
+ width: 150px;
+ float: left;
+ display: block;
+}
+.renderDesc{
+  text-align: left;
+  margin-left: 10px;
+
+}
+.renderDesc span, strong{
+  width: 250px;
+  float: left;
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+ }
+
+.rw-popup{
+  border: 2px solid silver !important;
+}
+.rw-widget-input {
+  border: 2px solid silver !important;
+
+}
